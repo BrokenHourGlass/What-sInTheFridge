@@ -17,33 +17,39 @@ struct SignUp_Screen: View {
     
     var body: some View {
         ZStack{
-            Color.green
+            Color.white
                 .ignoresSafeArea()
+            Circle()
+                .fill(Color.green)
+                .offset(x: -UIScreen.screenWidth/3, y: -UIScreen.screenHeight/2.5)
+                .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight, alignment: .center)
+            Circle()
+                .fill(Color.orange)
+                .offset(x: -UIScreen.screenWidth/3, y: UIScreen.screenHeight/2)
+                .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight, alignment: .center)
+            Circle()
+                .fill(Color.green)
+                .offset(x: UIScreen.screenWidth/3, y: UIScreen.screenHeight/2.5)
+                .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight/3, alignment: .center)
             VStack{
                 Text("Fill in the Information Below")
-                    Spacer()
-                    HStack{
-                        Text("Username: ")
-                        TextField("name", text: $user)
-                    }
-                    HStack{
-                        Text("Password: ")
-                        TextField("password", text: $pass)
-                    }
-                    HStack{
-                        Text("repeat Password: ")
-                        TextField("password", text: $prepeat)
-                    }
-                    HStack{
-                        Text("Gender:  ")
-                        Picker("Gender", selection: $gender) {
-                            Text("male").tag("male")
-                            Text("female").tag("female")
-                        }
-                        Spacer()
-                    }
-                Color.green
-                Spacer()
+                TextField("Username", text: $user)
+                Divider()
+                    .frame(height: 1)
+                    .background(Color.black)
+                TextField("password", text: $pass)
+                Divider()
+                    .frame(height: 1)
+                    .background(Color.black)
+                TextField("repeat password", text: $prepeat)
+                Divider()
+                    .frame(height: 1)
+                    .background(Color.black)
+                Button(action: {print("Sign-up")}){
+                    Text("Sign Up")
+                        .padding(.all)
+                        .background(Color.orange .cornerRadius(24))
+                }
             }
         }
     }
