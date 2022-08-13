@@ -32,7 +32,7 @@ struct SignUp_Screen: View {
                 .offset(x: UIScreen.screenWidth/3, y: UIScreen.screenHeight/2.5)
                 .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight/3, alignment: .center)
             VStack{
-                Text("Fill in the Information Below")
+                Text("Please Fill in the Information Below")
                 TextField("Username", text: $user)
                 Divider()
                     .frame(height: 1)
