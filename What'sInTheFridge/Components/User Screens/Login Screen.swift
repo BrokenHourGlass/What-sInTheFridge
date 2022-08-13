@@ -22,6 +22,7 @@ struct Login_Screen: View {
     var body: some View {
         ZStack{
             Color.green
+                .ignoresSafeArea()
             Group{
                 Circle()
                     .fill(Color.white)
@@ -37,7 +38,6 @@ struct Login_Screen: View {
                     .frame(width: UIScreen.screenWidth, height: UIScreen.screenHeight, alignment: .center)
             }
             VStack{
-                Text("0")
                 HStack{
                     Text("Welcome\nBack")
                     .font(.title)
