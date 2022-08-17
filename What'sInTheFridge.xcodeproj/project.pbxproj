@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		1628858828A30DA200697036 /* Login Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1628858728A30DA200697036 /* Login Screen.swift */; };
+		166BEB1F28A845EB00C84256 /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166BEB1E28A845EB00C84256 /* ShoppingCart.swift */; };
 		16914F45289DB81A005F8A3D /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16914F44289DB81A005F8A3D /* TopBar.swift */; };
 		169D5FF228A5641E00A49233 /* SignUp Screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169D5FF128A5641E00A49233 /* SignUp Screen.swift */; };
+		169E9AE028AB450500906FB8 /* ShoppingItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169E9ADF28AB450500906FB8 /* ShoppingItem.swift */; };
+		16B443FB28AC0F490068739E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B443FA28AC0F490068739E /* Constants.swift */; };
 		16FE8F74289D7EC7001690CD /* What_sInTheFridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE8F73289D7EC7001690CD /* What_sInTheFridgeApp.swift */; };
 		16FE8F76289D7EC7001690CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16FE8F75289D7EC7001690CD /* ContentView.swift */; };
 		16FE8F78289D7ECB001690CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16FE8F77289D7ECB001690CD /* Assets.xcassets */; };
@@ -18,8 +21,11 @@
 
 /* Begin PBXFileReference section */
 		1628858728A30DA200697036 /* Login Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Login Screen.swift"; sourceTree = "<group>"; };
+		166BEB1E28A845EB00C84256 /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
 		16914F44289DB81A005F8A3D /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		169D5FF128A5641E00A49233 /* SignUp Screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignUp Screen.swift"; sourceTree = "<group>"; };
+		169E9ADF28AB450500906FB8 /* ShoppingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingItem.swift; sourceTree = "<group>"; };
+		16B443FA28AC0F490068739E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		16FE8F70289D7EC7001690CD /* What'sInTheFridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "What'sInTheFridge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16FE8F73289D7EC7001690CD /* What_sInTheFridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = What_sInTheFridgeApp.swift; sourceTree = "<group>"; };
 		16FE8F75289D7EC7001690CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,7 +47,6 @@
 		1628858528A30CB500697036 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				1628858628A30D0100697036 /* User Screens */,
 				16914F44289DB81A005F8A3D /* TopBar.swift */,
 			);
 			path = Components;
@@ -64,6 +69,40 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		166BEB2028A845FB00C84256 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				169E9ADE28AB447D00906FB8 /* Components */,
+				166BEB1E28A845EB00C84256 /* ShoppingCart.swift */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		166BEB2128A8461900C84256 /* Jacob Files */ = {
+			isa = PBXGroup;
+			children = (
+				166BEB2028A845FB00C84256 /* ShoppingCart */,
+				1628858628A30D0100697036 /* User Screens */,
+			);
+			path = "Jacob Files";
+			sourceTree = "<group>";
+		};
+		169E9ADE28AB447D00906FB8 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				169E9ADF28AB450500906FB8 /* ShoppingItem.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		16B443F928AC0F360068739E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				16B443FA28AC0F490068739E /* Constants.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		16FE8F67289D7EC7001690CD = {
 			isa = PBXGroup;
 			children = (
@@ -83,9 +122,11 @@
 		16FE8F72289D7EC7001690CD /* What'sInTheFridge */ = {
 			isa = PBXGroup;
 			children = (
+				16B443F928AC0F360068739E /* Data */,
 				16FE8F73289D7EC7001690CD /* What_sInTheFridgeApp.swift */,
 				16FE8F75289D7EC7001690CD /* ContentView.swift */,
 				1628858528A30CB500697036 /* Components */,
+				166BEB2128A8461900C84256 /* Jacob Files */,
 				16FE8F77289D7ECB001690CD /* Assets.xcassets */,
 				16FE8F79289D7ECB001690CD /* Preview Content */,
 			);
@@ -171,10 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				16FE8F76289D7EC7001690CD /* ContentView.swift in Sources */,
+				166BEB1F28A845EB00C84256 /* ShoppingCart.swift in Sources */,
 				16914F45289DB81A005F8A3D /* TopBar.swift in Sources */,
 				169D5FF228A5641E00A49233 /* SignUp Screen.swift in Sources */,
+				169E9AE028AB450500906FB8 /* ShoppingItem.swift in Sources */,
 				1628858828A30DA200697036 /* Login Screen.swift in Sources */,
 				16FE8F74289D7EC7001690CD /* What_sInTheFridgeApp.swift in Sources */,
+				16B443FB28AC0F490068739E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
