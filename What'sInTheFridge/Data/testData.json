@@ -1,0 +1,29 @@
+
+{
+    "recipes":[
+        {
+            "image": "pasta.jpeg",
+            "name": "pasta",
+            "price": 14.95,
+            "description": "large quantity of pasta to handle your hunger cravings"
+        },
+        {
+            "image": "pizza.jpeg",
+            "name": "Pizza",
+            "price": 35.95,
+            "description": "you don't care about those thunder thighs and its highly delicious"
+        },
+        {
+            "image": "spam.jpeg",
+            "name": "Box o' spam",
+            "price": 0.99,
+            "description": "It's spam like the kind in your emails"
+        },
+        {
+            "image": "box.jpeg",
+            "name": "Box o' air",
+            "price": 9999.99,
+            "description": "an empty box, you know you love empty boxes (cat not for sale)"
+        },
+    ]
+}
