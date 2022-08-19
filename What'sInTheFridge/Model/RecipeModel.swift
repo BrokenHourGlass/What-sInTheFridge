@@ -19,6 +19,7 @@ import Foundation
 //}
 
 struct Recipe : Identifiable {
+//    static var recipe = Recipe(strMeal: String, strCategory: String, strArea: String, strMealThumb: String, strInstructions: String, strIngrediant1: String, strIngrediant2: String, strIngrediant3: String, strIngrediant4: String, strIngrediant5: String, strIngrediant6: String, strIngrediant7: String, strIngrediant8: String, strIngrediant9: String, strIngrediant10: String, strIngrediant11: String, strIngrediant12: String, strIngrediant13: String, strIngrediant14: String, strIngrediant15: String, strIngrediant16: String, strIngrediant17: String, strIngrediant18: String, strIngrediant19: String, strIngrediant20: String, strMeasure1: String, strMeasure2: String, strMeasure3: String, strMeasure4: String, strMeasure5: String, strMeasure6: String, strMeasure7: String, strMeasure8: String, strMeasure9: String, strMeasure10: String, strMeasure11: String, strMeasure12: String, strMeasure13: String, strMeasure14: String, strMeasure15: String, strMeasure16: String, strMeasure17: String, strMeasure18: String, strMeasure19: String, strMeasure20: String, dateModified: String, strTags: String)
     let id = UUID()
     let strMeal : String
     let strCategory : String

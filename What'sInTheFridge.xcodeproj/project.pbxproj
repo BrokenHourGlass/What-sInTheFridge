@@ -20,6 +20,7 @@
 		3BFCC48728AD95E0000D9B5F /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCC48628AD95E0000D9B5F /* HomePageView.swift */; };
 		3BFCC48928AD95F8000D9B5F /* BudgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCC48828AD95F8000D9B5F /* BudgetView.swift */; };
 		3BFCC48B28AD9751000D9B5F /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCC48A28AD9751000D9B5F /* RecipeModel.swift */; };
+		3BFCC48D28ADA2A0000D9B5F /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCC48C28ADA2A0000D9B5F /* RecipeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		3BFCC48628AD95E0000D9B5F /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
 		3BFCC48828AD95F8000D9B5F /* BudgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetView.swift; sourceTree = "<group>"; };
 		3BFCC48A28AD9751000D9B5F /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		3BFCC48C28ADA2A0000D9B5F /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		3BFCC47E28AD9289000D9B5F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				3BFCC48C28ADA2A0000D9B5F /* RecipeCard.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				16914F45289DB81A005F8A3D /* TopBar.swift in Sources */,
 				169D5FF228A5641E00A49233 /* SignUp Screen.swift in Sources */,
 				3BFCC48128AD9383000D9B5F /* Favorites.swift in Sources */,
+				3BFCC48D28ADA2A0000D9B5F /* RecipeCard.swift in Sources */,
 				3BFCC48328AD94B3000D9B5F /* FavoritesView.swift in Sources */,
 				3BFCC48528AD95C9000D9B5F /* RecentRecipeView.swift in Sources */,
 				1628858828A30DA200697036 /* Login Screen.swift in Sources */,
